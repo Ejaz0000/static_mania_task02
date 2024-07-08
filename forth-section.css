@@ -1,0 +1,64 @@
+.forth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth-sec-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1600px;
+    position: relative;
+    height: 1900px;
+}
+
+.about-us-sec{
+    text-align: center;
+    width: 68%;
+    margin-top: 250px;
+    z-index: 10;
+}
+
+.about-title{
+    color: #75FF69;
+    font-size: 24px;
+}
+
+.about-des{
+    font-family: "Boska";
+    font-style: normal;
+    font-size: 68px;
+    color: gray;
+}
+
+.about-des span{
+    color:#fff;
+}
+
+.back-img01{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.back-img02{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.back-img03{
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    bottom: 350px;
+}
+
+.back-img04{
+    position: absolute;
+    bottom: 0;
+    right: 240px;
+    bottom: 250px;
+}

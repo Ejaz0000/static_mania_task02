@@ -1,0 +1,119 @@
+.fifth-section{
+    background-color: #F9F9F9;
+    position: relative;
+}
+
+.intersection{
+    width: 100%;
+    position: absolute;
+    top: -100px;
+}
+
+.intersection img{
+    width: 100%;
+}
+
+.fifth-container{
+    padding: 100px 30px;
+    
+}
+
+.title-fifth h1{
+    font-family: "Boska";
+    font-style: normal;
+    font-size: 68px;
+    color: #1B3936;
+    font-weight: 400;
+}
+
+.title-fifth{
+    width: 800px;
+}
+
+.cabins-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabin01{
+    width: 378px;
+    height: 506px;
+    position: relative;
+}
+
+.cabin01 img{
+    width: 100%;
+    height: 100%;
+}
+
+.cabin02{
+    width: 582px;
+    height: 779;
+    position: relative;
+}
+
+.cabin02 img{
+    width: 100%;
+    height: 100%;
+}
+
+.cabin03{
+    width: 378px;
+    height: 506px;
+    position: relative;
+}
+
+.cabin03 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.cabin-info{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 75%;
+    left: 40px;
+    padding-right: 30px;
+    gap: 60px;
+    color: #fff;
+}
+
+.cabin-info h2{
+    margin: 0;
+    font-family: 'Boska';
+    font-weight: normal;
+}
+
+.cabin-des{
+    padding-right: 30px;
+}
+
+.arrow-right{
+   width: 80px;
+   height: 50px;
+   margin-top: 30px;
+}
+
+.arrow-right img{
+   width: 100%;
+   height: 100%;
+}
+
+.cabin02 .cabin-info h2{
+   font-size: 68px;
+}
+
+.cabin01 h2, .cabin03 h2{
+    font-size: 32px;
+    width: 100%;
+    opacity: 0.9;
+ }
+
+ .cabin01 .arrow-right, .cabin03 .arrow-right{
+    display: none;
+ }
